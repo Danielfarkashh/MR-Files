@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "MR_VENDOR": "GE",
+      "Power": "1.5T",
+      "Version": "DV25.0",
+      "Os": "RedHAT",
+      "VNC_Supported": true,
+      "Comments": ""
+    },
+    {
+      "MR_VENDOR": "GE",
+      "Power": "1.5T",
+      "Version": "DV26.0",
+      "Os": "RedHAT",
+      "VNC_Supported": true,
+      "Comments": ""
+    },
+    {
+      "MR_VENDOR": "Siemens",
+      "Power": "1.5T",
+      "Version": "Prisma",
+      "Os": "Windows7",
+      "VNC_Supported": true,
+      "Comments": ""
+    },
+    {
+      "MR_VENDOR": "Siemens",
+      "Power": "3.0T",
+      "Version": "Prisma",
+      "Os": "Windows7",
+      "VNC_Supported": true,
+      "Comments": ""
+    },
+    {
+      "MR_VENDOR": "Siemens",
+      "Power": "1.5T",
+      "Version": "Skyra",
+      "Os": "Windows10",
+      "VNC_Supported": false,
+      "Comments": "Example of comment"
+    },
+    {
+      "MR_VENDOR": "Siemens",
+      "Power": "3.0T",
+      "Version": "Skyra",
+      "Os": "Windows10",
+      "VNC_Supported": false,
+      "Comments": ""
+    }
+  ]
+}

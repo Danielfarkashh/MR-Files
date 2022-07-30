@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450"
+            prefWidth="450" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.mr.AddDataController">
+    <children>
+        <Text layoutX="46.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mr Vendor:"
+              wrappingWidth="69.28759765625"/>
+        <TextArea fx:id="mVendor" layoutX="121.0" layoutY="23.0" prefHeight="41.0" prefWidth="155.0"/>
+        <Text layoutX="46.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Version"
+              wrappingWidth="53.28759765625"/>
+        <TextArea fx:id="mPower" layoutX="121.0" layoutY="73.0" prefHeight="41.0" prefWidth="155.0"/>
+        <Text layoutX="46.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Power:"
+              wrappingWidth="69.28759765625"/>
+        <Text layoutX="46.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Os:"
+              wrappingWidth="69.28759765625"/>
+        <TextArea fx:id="mVersion" layoutX="118.0" layoutY="127.0" prefHeight="28.0" prefWidth="161.0"/>
+        <TextArea fx:id="mOs" layoutX="118.0" layoutY="189.0" prefHeight="28.0" prefWidth="161.0"/>
+        <CheckBox fx:id="mVncSupported" layoutX="121.0" layoutY="256.0" mnemonicParsing="false" text="VNC Supported"/>
+        <Text layoutX="46.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Comments"
+              wrappingWidth="69.28759765625"/>
+        <TextArea fx:id="mComments" layoutX="131.0" layoutY="286.0" prefHeight="28.0" prefWidth="161.0"/>
+        <Button onMouseClicked="#onAddButtonClicked" layoutX="149.0" layoutY="356.0" mnemonicParsing="false"
+                prefHeight="26.0" prefWidth="88.0" text="Add!"/>
+    </children>
+</AnchorPane>

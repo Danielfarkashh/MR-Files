@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0"
+            prefWidth="1017.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.mr.MrController">
+    <children>
+        <Text layoutX="14.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Read list from .json file :"
+              wrappingWidth="137.21630859375"/>
+        <Button layoutX="162.0" layoutY="33.0" mnemonicParsing="false" onMouseClicked="#onLoadButtonClicked"
+                text="Browse for file"/>
+        <Text layoutX="14.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File Path:"/>
+        <Text fx:id="mFilePath" layoutX="83.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0"
+              wrappingWidth="173.21630859375"/>
+        <Text layoutX="32.0" layoutY="429.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Save list to file"
+              wrappingWidth="137.21630859375"/>
+        <Button layoutX="122.0" layoutY="412.0" mnemonicParsing="false" onMouseClicked="#onSaveButtonClicked"
+                text="Browse for file"/>
+        <TableView fx:id="mTableView" layoutX="249.0" layoutY="77.0" prefHeight="353.0" prefWidth="668.0">
+            <columns>
+            </columns>
+        </TableView>
+        <Button onMouseClicked="#onAddButtonClicked" layoutX="930.0" layoutY="129.0" mnemonicParsing="false"
+                prefHeight="15.0" prefWidth="67.0" text="Add data"/>
+    </children>
+</AnchorPane>
